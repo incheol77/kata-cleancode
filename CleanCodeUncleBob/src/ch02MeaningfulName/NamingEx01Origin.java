@@ -16,6 +16,7 @@ public class NamingEx01Origin {
 				list1.add(x);
 			}
 		}
+		
 		return list1;
 	}
 }

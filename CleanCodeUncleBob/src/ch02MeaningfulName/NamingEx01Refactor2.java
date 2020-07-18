@@ -27,7 +27,7 @@ public class NamingEx01Refactor2 {
 	}
 
 	public class Cell {
-		public int[] cell;
+		private int[] cell;
 		
 		public boolean isFlagged(Cell cell) {
 			return this.cell[STATUS_VALUE] == FLAGGED;
