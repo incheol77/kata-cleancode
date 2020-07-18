@@ -4,9 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class NamingEx01Refactor2 {
-	private static final int STATUS_VALUE = 0;
-	private static final int FLAGGED = 4;
-
 	// Q1 : What is in 'theList'?
 	//		-> 'theList' is a data structure for game board
 	// Q2 : Why is the 0th value in 'theList' important?
@@ -24,13 +21,5 @@ public class NamingEx01Refactor2 {
 			}
 		}
 		return flaggedCells;
-	}
-
-	public class Cell {
-		private int[] cell;
-		
-		public boolean isFlagged(Cell cell) {
-			return this.cell[STATUS_VALUE] == FLAGGED;
-		}	
 	}
 }
