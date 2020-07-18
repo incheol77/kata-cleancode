@@ -1,7 +1,6 @@
 package ch02MeaningfulNameTest;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotEquals;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +8,6 @@ import java.util.List;
 import org.junit.jupiter.api.Test;
 
 import ch02MeaningfulName.Cell;
-import ch02MeaningfulName.NamingEx01Refactor1;
 import ch02MeaningfulName.NamingEx01Refactor2;
 
 class NamingEx01Refactor2Test {
