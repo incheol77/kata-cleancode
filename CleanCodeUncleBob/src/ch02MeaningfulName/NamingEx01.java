@@ -3,7 +3,7 @@ package ch02MeaningfulName;
 import java.util.ArrayList;
 import java.util.List;
 
-public class NamingEx01Origin {
+public class NamingEx01 {
 	// Q1 : What is in 'theList'?
 	// Q2 : Why is the 0th value in 'theList' important?
 	// Q3 : What does value 4 mean?
