@@ -7,13 +7,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.junit.jupiter.api.Test;
-import ch02MeaningfulName.NamingEx01Origin;
+import ch02MeaningfulName.NamingEx01;
 
-class NamingEx01OriginTest {
+class NamingEx01Test {
 
 	@Test
 	void test() {
-		NamingEx01Origin ex01 = new NamingEx01Origin();
+		NamingEx01 ex01 = new NamingEx01();
 		
 		List<int[]> input = new ArrayList<int[]>();
 	
