@@ -1,4 +1,5 @@
 */bin/*
+*.pyc
 
 .classpath
 .project
