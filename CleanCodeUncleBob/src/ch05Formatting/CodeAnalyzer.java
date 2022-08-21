@@ -1,3 +1,8 @@
+// 밥 아저씨의 형식 규칙
+// 코드 자체가 최고의 구현 표준 문서가 되는 예이다.
+// 
+// 출처 : 클린코드 (로버트 C.마틴)
+
 public class CodeAnalyzer implements JavaFileAnalysis {
 	private int lineCounter;
 	private int maxLineLength;
@@ -32,10 +37,10 @@ public class CodeAnalyzer implements JavaFileAnalysis {
 	}
 
 	private void measuredLine(String line) {
-		lineCount++;
+		lineCounter++;
 		int lineSize = line.length();
 		totalChars += lineSize;
-		lineWidthHistogram.addLine(lineSize, lineCount);
+		lineWidthHistogram.addLine(lineSize, lineCounter);
 		recordWidestLine(lineSize);
 	}
 
