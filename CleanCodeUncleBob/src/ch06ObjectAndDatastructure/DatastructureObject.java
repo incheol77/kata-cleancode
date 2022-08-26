@@ -1,5 +1,3 @@
-import org.w3c.dom.css.Rect;
-
 // 절차적인 도형
 //
 // 세 가지 도형 클래스를 다룸. 
